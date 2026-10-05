@@ -104,15 +104,15 @@ Each student record contains:
 
 {
 
-&#x20; "id": 4,
+  "id": 4,
 
-&#x20; "name": "SUDARSHAN",
+  "name": "SUDARSHAN",
 
-&#x20; "age": 20,
+  "age": 20,
 
-&#x20; "branch": "CSE",
+  "branch": "CSE",
 
-&#x20; "marks": 85
+  "marks": 85
 
 }
 
@@ -263,4 +263,5 @@ server.port=8080
 Diploma in Computer Science and Engineering  
 
 DRR Government Polytechnic, Davanagere
+
 
