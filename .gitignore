@@ -1,0 +1,12 @@
+target/
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache/
+
+src/main/java/com/example/bookstore/
+src/main/java/com/example/employee/
+src/test/java/com/example/bookstore/
+src/test/java/com/example/employee/
