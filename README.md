@@ -1,3 +1,5 @@
+
+
 \# Student Management System
 
 
@@ -20,7 +22,7 @@ The application provides REST APIs to perform CRUD operations on student records
 
 \- Update student details
 
-\- Delete a student
+\- Delete student details
 
 \- MongoDB database integration
 
@@ -90,7 +92,7 @@ Each student record contains:
 
 | PUT | `/update?id=1` | Update student details |
 
-| DELETE | `/delete?id=1` | Delete a student |
+| DELETE | `/delete?id=1` | Delete student |
 
 
 
@@ -114,18 +116,19 @@ Each student record contains:
 
 }
 
+
+
 Project Structure
-student-management-system
 
-│
+student-management-system/
 
-├── src
+├── src/
 
-│   ├── main
+│   ├── main/
 
-│   │   ├── java
+│   │   ├── java/
 
-│   │   │   └── com.example.student
+│   │   │   └── com/example/student/
 
 │   │   │       ├── Student.java
 
@@ -137,17 +140,17 @@ student-management-system
 
 │   │   │
 
-│   │   └── resources
+│   │   └── resources/
 
 │   │       └── application.properties
 
 │   │
 
-│   └── test
+│   └── test/
 
-│       └── java
+│       └── java/
 
-│           └── com.example.student
+│           └── com/example/student/
 
 │               └── StudentRepoTest.java
 
@@ -158,4 +161,78 @@ student-management-system
 ├── mvnw
 
 └── mvnw.cmd
+
+How to Run
+
+1\. Start MongoDB
+
+
+
+Make sure MongoDB is running on:
+
+
+
+localhost:27017
+
+2\. Run the Spring Boot Application
+
+
+
+Run StudentApplication.java from Eclipse.
+
+
+
+The application runs on:
+
+
+
+http://localhost:8080
+
+3\. Test the APIs
+
+
+
+Use Postman to test the CRUD operations.
+
+
+
+Example:
+
+
+
+GET http://localhost:8080/getAll
+
+Database Configuration
+
+
+
+The application uses MongoDB with the following configuration:
+
+
+
+spring.data.mongodb.port=27017
+
+spring.data.mongodb.database=student
+
+server.port=8080
+
+Purpose
+
+
+
+This project was developed as a Full Stack Development practice project to understand Spring Boot, REST APIs, MongoDB integration, and CRUD operations.
+
+
+
+Author
+
+
+
+Chinmayi M
+
+
+
+Diploma in Computer Science and Engineering
+
+DRR Government Polytechnic, Davanagere
 
