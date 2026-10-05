@@ -116,9 +116,15 @@ Each student record contains:
 
 }
 
+```
 
 
-Project Structure
+
+\## Project Structure
+
+
+
+```text
 
 student-management-system/
 
@@ -162,9 +168,15 @@ student-management-system/
 
 └── mvnw.cmd
 
-How to Run
+```
 
-1\. Start MongoDB
+
+
+\## How to Run
+
+
+
+\### 1. Start MongoDB
 
 
 
@@ -172,13 +184,19 @@ Make sure MongoDB is running on:
 
 
 
+```text
+
 localhost:27017
 
-2\. Run the Spring Boot Application
+```
 
 
 
-Run StudentApplication.java from Eclipse.
+\### 2. Run the Spring Boot Application
+
+
+
+Run `StudentApplication.java` from Eclipse.
 
 
 
@@ -186,9 +204,15 @@ The application runs on:
 
 
 
+```text
+
 http://localhost:8080
 
-3\. Test the APIs
+```
+
+
+
+\### 3. Test the APIs
 
 
 
@@ -200,9 +224,15 @@ Example:
 
 
 
+```text
+
 GET http://localhost:8080/getAll
 
-Database Configuration
+```
+
+
+
+\## Database Configuration
 
 
 
@@ -210,29 +240,27 @@ The application uses MongoDB with the following configuration:
 
 
 
+```properties
+
 spring.data.mongodb.port=27017
 
 spring.data.mongodb.database=student
 
 server.port=8080
 
-Purpose
+```
 
 
 
-This project was developed as a Full Stack Development practice project to understand Spring Boot, REST APIs, MongoDB integration, and CRUD operations.
+\## Author
 
 
 
-Author
+\*\*Chinmayi M\*\*
 
 
 
-Chinmayi M
-
-
-
-Diploma in Computer Science and Engineering
+Diploma in Computer Science and Engineering  
 
 DRR Government Polytechnic, Davanagere
 
